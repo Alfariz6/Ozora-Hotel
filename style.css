@@ -10,6 +10,8 @@ body {
     height: 100%;
 }
 
+/*------------------------SATU-------------------------*/
+
 .first {
     margin: auto;
     height: 838px;
@@ -22,14 +24,16 @@ body {
     isolation: isolate;
 }
 
-.first img {
+.wrapper img {
     position: absolute;
-    z-index: -1;
+    z-index:1;
     left: 650px;
-    top: 260px;
+    top: 130px;
     width: 790px;
     height: 790px;
 }
+
+/*------------------------DUA-------------------------*/
 
 .second {
     margin: auto;
@@ -47,7 +51,7 @@ body {
     font-size: 45px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: white;
-    text-shadow: black 0 0 0 5;
+    text-shadow: ;
     font-weight: 400;
     text-align: center;
     position: relative;
@@ -56,6 +60,85 @@ body {
 .second H1 {
     top: 100px;
 }
+
+.second .buttonbg1 img {
+    position: relative;
+    top: 890px;
+    left: 270px;
+    width: 875px;
+    height: 392px;
+}
+
+.second .button1 img {
+    position: relative;
+    top: 660px;
+    left: 465px;
+    width: 480px;
+    height: 130px;
+}
+
+.second .button1 p {
+    z-index: 1;
+    position: relative;
+    top: 450px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.second .button1 pre {
+    z-index: 1;
+    position: relative;
+    top: 450px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.second .buttonbg2 img {
+    position: relative;
+    top: 400px;
+    left: 270px;
+    width: 875px;
+    height: 392px;
+}
+
+.second .button2 img {
+    position: relative;
+    top: 170px;
+    left: 465px;
+    width: 480px;
+    height: 130px;
+}
+
+.second .button2 p {
+    z-index: 10;
+    position: relative;
+    top: -40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.second .button2 pre {
+    z-index: 1;
+    position: relative;
+    top: -40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+
+/*------------------------TIGA-------------------------*/
 
 .third {
     margin: auto;
@@ -69,6 +152,8 @@ body {
     display: grid;
     position: relative; 
 }
+
+/*------------------------EMPAT-------------------------*/
 
 .fourth {
     margin: auto;
@@ -84,6 +169,8 @@ body {
     text-align: center;
 }
 
+/*------------------------LIMA-------------------------*/
+
 .fifth {
     margin: auto;
     height: 1944px;
@@ -97,6 +184,8 @@ body {
     position: relative; 
     text-align: center;
 }
+
+/*------------------------ENAM-------------------------*/
 
 .sixth {
     margin: auto;
