@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@400;500;700&family=Passion+One&family=Permanent+Marker&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -20,8 +21,47 @@ body {
     background-repeat: no-repeat;
     background-size: 1440px 838px;
     display: grid; 
-    text-align: center;
     isolation: isolate;
+}
+
+@font-face {
+    font-family: 'Kaishodebold';
+    src: url(Font/Kaisho\ debold.otf);
+}
+
+.first h1 {
+    font-size: 60px;
+    font-family: 'Kaishodebold', sans-serif;
+    color: white;
+    position: relative;
+    left: 120px;
+    top: 220px;
+}
+
+.first h1 pre {
+    font-size: 60px;
+    font-family: 'Kaishodebold', sans-serif;
+    color: white;
+    position: relative;
+    right: 455px;
+    top: -60px;
+}
+
+.first p {
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    left: 120px;
+    top: 150px;
+}
+
+.first p pre {
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .wrapper img {
@@ -46,7 +86,7 @@ body {
     position: relative; 
 }
 
-.second H1,pre {
+.second H2 {
     margin-top: 0px;
     font-size: 45px;
     font-family: 'Mochiy Pop One', sans-serif;
@@ -55,16 +95,24 @@ body {
     font-weight: 400;
     text-align: center;
     position: relative;
+    top: 100px;
 }
 
-.second H1 {
-    top: 100px;
+.second h2 pre {
+    font-size: 45px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    text-shadow: ;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -10px;
 }
 
 .second .buttonbg1 img {
     position: relative;
     top: 890px;
-    left: 270px;
+    left: 200px;
     width: 875px;
     height: 392px;
 }
@@ -72,7 +120,7 @@ body {
 .second .button1 img {
     position: relative;
     top: 660px;
-    left: 465px;
+    left: 390px;
     width: 480px;
     height: 130px;
 }
@@ -102,7 +150,7 @@ body {
 .second .buttonbg2 img {
     position: relative;
     top: 400px;
-    left: 270px;
+    left: 200px;
     width: 875px;
     height: 392px;
 }
@@ -110,7 +158,7 @@ body {
 .second .button2 img {
     position: relative;
     top: 170px;
-    left: 465px;
+    left: 390px;
     width: 480px;
     height: 130px;
 }
@@ -139,6 +187,10 @@ body {
 
 
 /*------------------------TIGA-------------------------*/
+@font-face {
+    font-family: 'Nikumaru';
+    src: url(Font/nikumaru.otf);
+}
 
 .third {
     margin: auto;
@@ -151,6 +203,80 @@ body {
     place-content: center; 
     display: grid;
     position: relative; 
+}
+
+.third h2 {
+    font-family: 'Nikumaru',sans-serif;
+    font-size: 35pt;
+    text-align: center;
+    position: relative;
+    top: -460px;
+}
+
+.third h2 pre {
+    font-family: 'Nikumaru',sans-serif;
+    font-size: 35pt;
+    text-align: center;
+    top: 5px;
+}
+
+.third p {
+    margin-bottom: 5px;
+    font-size: 16pt;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #58595B;
+    text-align: center;
+    position: relative;
+}
+
+.third p, pre{
+    margin: 5px;
+    font-size: 16pt;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #58595B;
+    text-align: center;
+    position: relative;
+    top: -420px;
+}
+
+.third .buttonbg3 img {
+    width: 697px;
+    height: 278px;
+    top: 1100px;
+    left: 285px;
+}
+
+.third .button3 p {
+    z-index: 1;
+    margin: 5px;
+    font-size: 16pt;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+
+.third .button3 pre {
+    z-index: 1;
+    margin: 5px;
+    font-size: 16pt;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+
+.third .button3 img {
+    width: 490px;
+    height: 84px;
+    top: 1230px;
+    left: 385px;
 }
 
 /*------------------------EMPAT-------------------------*/
