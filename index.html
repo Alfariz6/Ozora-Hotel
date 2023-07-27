@@ -5,20 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ozora-Hotel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
 <body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
     <div class="container">
         <div class="wrapper">
             <img src="bg/display.png" alt="display">
             <div class="first">
                 <div class="title">
                     <h1>大空ホテル <pre>カンダ神保町</pre></h1>
-                    <p>「宿泊者様専用」大浴場などの設備や充実した<pre>サービスでファミリーやグループでゆったりと</pre><pre>お過ごしいただけます。</pre></p>
+                    <p>「宿泊者様専用」大浴場などの設備や充実した </p>
+                    <p2>サービスでファミリーやグループでゆったりと</p2>
+                    <p3>お過ごしいただけます</p3>
                 </div>
             </div>
 
             <div class="second">
-                <H2>ファミリーやグループで<pre>ゆったり充実のホテル滞在</pre></H2>
+                <div class="title2"> 
+                    <H2>ファミリーやグループで<pre>ゆったり充実のホテル滞在</pre></H2>
+                </div>
+               
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img src="Family/Fam1-03.png" alt="">
+                        <p>大空リゾート®からは無料のシャトルバスによるアクセスも可能です。 ホテルに到着したらフロントでチェックインをお済ませ下さい。</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Family/Fams2-03.png" alt="">
+                        <p>最上階の7階には、宿泊者限定でご利用できる大浴場を用意。海を一望できる大浴場で、ご家族みんなで癒やされて下さい。</p>
+                        <p2>※小学1年生以上の方は、男女別のご利用とさせていただきます。</p2>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Family/Fams3-03.png" alt="">
+                        <p>ホテルの目の前には市内唯一の総合公園「浦安市総合公園」があり、 海を眺めながら芝生の上で遊んだりくつろいだりできます。</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Family/Fams4-03.png" alt="">
+                        <p>館内には、お子様連れのご家族はもちろん、さまざまな年代の方が快適に過ごしていただける施設やサービスをご用意しています。</p>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="Family/Fams5-03.png" alt="">
+                        <p>客室は全室広々設計で、ファミリーやグループみんなでくつろげます。また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいるファミリーにご好評です。</p>
+                      </div>
+                      ...
+                 </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                  
                 <div class="buttonbg1">
                         <img src="bg/Button bg1.png" alt="btnbg">
                         <div class="button1">
@@ -61,5 +102,29 @@
             </div>
         </div>
     </div>
+
+    <script>
+    const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            loop: true,
+        
+            // If we need pagination
+            pagination: {
+            el: '.swiper-pagination',
+            },
+        
+            // Navigation arrows
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        
+            // And if we need scrollbar
+            scrollbar: {
+            el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+    
 </body>
 </html>
