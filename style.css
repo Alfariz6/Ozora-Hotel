@@ -19,6 +19,7 @@
 .first {
     margin: auto;
     height: 838px;
+    width: 1440px;
     background-image: url(bg/bg1.png);
     background-position-x: center;
     background-repeat: no-repeat;
@@ -46,7 +47,7 @@
     font-family: 'Kaishodebold', sans-serif;
     color: white;
     position: relative;
-    right: 455px;
+    right: 542px;
     top: -60px;
 }
 
@@ -83,7 +84,7 @@
 .wrapper img {
     position: absolute;
     z-index:1;
-    left: 650px;
+    left: 773px;
     top: 130px;
     width: 790px;
     height: 790px;
@@ -94,6 +95,7 @@
 .second {
     margin: auto;
     height: 100%;
+    width: 1440px;
     background-image: url(bg/bg2.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
@@ -124,6 +126,7 @@
 }
 
 .second .buttonbg1 img {
+    z-index: 1;
     position: relative;
     top: 890px;
     left: 200px;
@@ -132,6 +135,7 @@
 }
 
 .second .button1 img {
+    z-index: 1;
     position: relative;
     top: 660px;
     left: 390px;
@@ -233,7 +237,8 @@
 .third {
     margin: auto;
     height: 1441px;
-    top: 20px;
+    width: 1440px;
+    top: 940px;
     background-image: url(bg/bg3.jpg);
     background-position-x: center;
     background-repeat: no-repeat;
