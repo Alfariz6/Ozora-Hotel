@@ -102,23 +102,21 @@
     position: relative; 
 }
 
-.second .title2 h2 {
+.second .title2 H2 {
     margin-top: 0px;
     font-size: 45px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: white;
-    text-shadow: ;
     font-weight: 400;
     text-align: center;
     position: relative;
     top: 100px;
 }
 
-.second title2 h2 pre {
+.second .title2 H2 pre {
     font-size: 45px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: white;
-    text-shadow: ;
     font-weight: 400;
     text-align: center;
     position: relative;
@@ -220,7 +218,7 @@
     max-width: 926px;
     margin: auto;
     text-align: left;
-    margin-bottom: 30px;
+    top: 400px;
 }
 
 
