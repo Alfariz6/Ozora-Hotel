@@ -146,7 +146,17 @@ img {
     margin-left: 490px;
     width: 480px;
     height: 130px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
+
+.button1 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .second .button1 p {
     z-index: 1;
@@ -186,6 +196,15 @@ img {
     margin-left: 490px;
     width: 480px;
     height: 130px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.button2 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .second .button2 p {
@@ -356,7 +375,17 @@ img {
     height: 84px;
     top: -100px;
     margin-left: 235px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
+
+.button3 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 /*------------------------EMPAT-------------------------*/
 
@@ -424,7 +453,17 @@ img {
     width: 366px;
     height: 121px;
     position: relative;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
+
+.button4 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .buttonbg4 p {
     z-index: 1;
@@ -450,7 +489,17 @@ img {
     position: relative;
     margin-top: 0;
     top: -90px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
+
+.button5 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 .buttonbg5 p {
     margin-top: 0;
@@ -582,34 +631,71 @@ img {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.button6 {
-    position: relative;
-    top: -100px;
-    margin-left: 160px;
-    width: 424px;
-    height: 75px;
-}
-
-.button7 {
-    position: relative;
-    top: 5px;
-    left: -160px;
-    width: 502px;
-    height: 76px;
-}
-
-.button8 {
+.button6 img{
     position: relative;
     top: -70px;
-    left: 420px;
-    width: 502px;
-    height: 76px;
+    margin-left: 0;
+    width: 424px;
+    height: 90px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 
-.button9 {
+.button6 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.button7 img{
+    position: relative;
+    top: 5px;
+    margin-right: 580px;
+    width: 502px;
+    height: 100px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.button7 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.button8 img{
+    position: relative;
+    top: -100px;
+    margin-left: 580px;
+    width: 502px;
+    height: 100px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.button8 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.button9 img{
     position: relative;
     top: 20px;
-    margin-left: 166px;
+    margin-left: 0;
     width: 435px;
-    height: 76px;
+    height: 90px;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.button9 img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
 }
