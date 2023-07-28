@@ -685,7 +685,7 @@ img {
 
 .button9 img{
     position: relative;
-    top: 20px;
+    margin-top: 0;
     margin-left: 0;
     width: 435px;
     height: 90px;
